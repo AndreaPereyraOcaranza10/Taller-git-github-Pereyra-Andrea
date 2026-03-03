@@ -80,6 +80,40 @@ nav {
 .card:hover { transform: translateY(-10px); }
 .img-placeholder { font-size: 4rem; margin-bottom: 20px; }
 
+/* Sección Nosotros */
+.about { padding: 100px 8%; background: var(--white); }
+.about-container { max-width: 1000px; margin: 0 auto; }
+.about h2 { margin-bottom: 30px; font-size: 2.5rem; text-align: center; }
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.about-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.about-item img { width: 100%; max-width: 400px; border-radius: 15px; }
+
+@media (min-width: 768px) {
+    .about-item {
+        flex-direction: row;
+        text-align: left;
+    }
+    .about-item:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .about-item p {
+        flex: 1;
+    }
+    .about-item img {
+        flex: 1;
+    }
+}
+
 /* Formulario */
 .contact { padding: 100px 8%; }
 .contact-container { max-width: 600px; margin: 0 auto; }
