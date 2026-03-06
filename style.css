@@ -140,3 +140,31 @@ input, select, textarea {
     display: block;
     margin: 0 auto 15px; /* Centra la imagen y da espacio abajo */
 }
+
+/* Botón Volver Arriba */
+.btn-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--accent); /* Usando tu variable dorada */
+    color: var(--white);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; /* Oculto por defecto */
+    z-index: 1001;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-size: 1.5rem;
+}
+
+.btn-top:hover {
+    background-color: var(--brown); /* Cambia a chocolate al pasar el mouse */
+    transform: translateY(-5px);
+}
+
+.btn-top.show {
+    display: block; /* Se muestra cuando bajamos en la página */
+}

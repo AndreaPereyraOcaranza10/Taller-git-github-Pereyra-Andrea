@@ -1,5 +1,27 @@
+#DULCINEA REPOSTERÍA 
+
+#DESCRIPCIÓN
+Sitio web para una repostería gourmet que ofrece productos artesanales como pasteles, cupcakes y galletas. 
+El proyecto está enfocado en proporcionar una experiencia de usuario fluida, destacando la historia de la marca 
+y facilitando el contacto para pedidos personalizados.
+
+#TECNOLOGÍAS
+HTML5: Estructura semántica del sitio.
+CSS3: Diseño responsivo con Flexbox, Grid y variables personalizadas.
+JavaScript: Lógica para validación de formularios, estilos dinámicos en el header y funcionalidades de navegación.
+
+#INSTALACIÓN/USO
+1. Clona el repositorio: git clone https://github.com/AndreaPereyraOcaranza10/Taller-git-github-Pereyra-Andrea.git.
+2. Abre el archivo index.html en tu navegador preferido.
 
 
-#SECCION NOSOTROS
+#ACTUALIZACIONES RECIENTES
+SECCION NOSOTROS:
 Agrego sección respetando indicaciones.
 Agrego además fotos y descripción completa.
+BOTÓN VOLVER ARRIBA:
+Se implementó un botón flotante dinámico con JavaScript que facilita la navegación al scrollear.
+
+#AUTOR Y COLABORADORES
+Andrea Pereyra - AndreaPereyraOcaranza10
+Cecilia Diaz - cecidiaz21
