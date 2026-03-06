@@ -168,3 +168,61 @@ input, select, textarea {
 .btn-top.show {
     display: block; /* Se muestra cuando bajamos en la página */
 }
+
+/* Footer Profesional */
+.main-footer {
+    background-color: var(--brown);
+    color: var(--white);
+    padding: 60px 8% 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-info .logo { color: var(--accent); margin-bottom: 15px; }
+.footer-info .logo span { color: var(--white); }
+
+.footer-links h4, .footer-newsletter h4 {
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    color: var(--accent);
+}
+
+.footer-links ul { list-style: none; }
+.footer-links a {
+    color: var(--pink);
+    text-decoration: none;
+    transition: 0.3s;
+    line-height: 2;
+}
+
+.footer-links a:hover { color: var(--white); padding-left: 5px; }
+
+.mini-form { display: flex; gap: 5px; margin-top: 10px; }
+.mini-form input {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    flex: 1;
+}
+
+.mini-form button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--pink);
+}
