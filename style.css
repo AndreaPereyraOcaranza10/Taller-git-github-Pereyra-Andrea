@@ -226,3 +226,23 @@ input, select, textarea {
     font-size: 0.9rem;
     color: var(--pink);
 }
+
+/* --- Redes Sociales en el Footer --- */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Espacio horizontal entre los iconos */
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: var(--pink); /* Color crema rosado por defecto */
+    font-size: 1.5rem; /* Tamaño legible y clickeable en celulares */
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block; /* Necesario para que la animación de salto funcione */
+}
+
+.social-icons a:hover {
+    color: var(--accent); /* Cambia al dorado suave al pasar el mouse */
+    transform: translateY(-4px); /* Pequeño salto elegante hacia arriba */
+}
